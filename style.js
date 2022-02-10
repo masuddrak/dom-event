@@ -1,9 +1,7 @@
-function redColor(){
-    document.body.style.backgroundColor='red';
-}
 
-const greenBody=document.getElementById('greenBody');
-greenBody.onclick=green;
-function green(){
-    document.body.style.backgroundColor='green';
+
+function myBtn(){
+    const changeParagraph=document.getElementById('changeParagraph');
+    changeParagraph.innerText='thats a good idia'
+
 }
